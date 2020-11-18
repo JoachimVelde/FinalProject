@@ -9,10 +9,31 @@
 </head>
 
 <body>
-    <h1>Explore the Ocean Wildlife</h1>
-    <h1>LiveMarine Project</h1><!--navn som forslag-->
-    <!--Image enten her eller som bakgrunnsbilde i css, dekker 100% width større bilde?-->
+    <div id="banner_small">
+        <h1>Explore the Ocean Wildlife</h1>
+        <h1>LiveMarine Project</h1><!--navn som forslag-->
+        <!--Image enten her eller som bakgrunnsbilde i css-->
+    </div>
 
+    <!--navbar +
+    det finnes en måte å separere knappene i to deler, så det på youtube-->
+    <div id="navbar">
+        <ul>
+            <div id="navbar-left">
+                <a href="index.html"><li>Home</li></a>
+                <a href="index.html#challenge"><li>Global challenge</li></a>
+                <a href="index.html#solution"><li>Our solution</li></a>
+                <a href="index.html#subscribe"><li>Subscribe</li></a>
+            </div>
+            <div id="navbar-right">
+                <a href="register.html"><li>Register</li></a>
+                <a href="login.html"><li>Log in</li></a>
+            </div>
+        </ul>
+    </div>
+
+    <div id="content_subpage"><!--Vet ikke om det går å bruke id="content-block" her også, får sjekke-->
+        <h2>Our solution</h2>
         <p>
             In LiveMarine project, there are 10 underwater high resolution cameras that are mounted to floating
             bases in the Pacific Ocean. The cameras monitor the environment, such as moving fish stocks, animals 
@@ -26,17 +47,26 @@
             marine experts located on the research base. In addition, you can live chat with our experts if you have
             any questions regarding the videos or live stream. 
         </p>
-        <p>Subscribe here</p><!--Lenke til subscription page-->
+        <p><a href="index.html#subscribe">Subscribe here</a></p><!--Lenke til subscription page-->
         <!--Bør det være noe free-trial?-->
         <!--Bør det være også noe newsletter eller noe sånt? men kanskje må man da skrive også noe om det-->
 
         <p>
             LiveMarine is an established in 2015 within the GOOS, a programme executed by the Intergovernmental 
-            Oceanographic Commission of the UNESCO <a href= "reference.html">[Reference 5]</a>. GOOS Regional 
+            Oceanographic Commission of the UNESCO <a href= "reference.html#reference5">[Reference 5]</a>. GOOS Regional 
             Alliances (GRAs) which is one of three tiers of GOOS is responsible for the identification and development
             of GOOS ocean monitoring and alignment of the global goals of GOOS with the need for services satisfying local 
-            requirements <a href= "reference.html">[Reference 6]</a>.
+            requirements <a href= "reference.html#reference6">[Reference 6]</a>.
         </p>
-</body>
+    </div>
 
+    <footer>
+        <p>Scroll to top</p>
+        <p><a href="references.html">References</a></p>
+        <p><strong>LiveMarine &#169; 2020. All rights reserved.</strong></p> <!--sentret helt under all annet tekst-->
+        <p>post@livemarine.com</p>
+        <p>Terms & Conditions</p>
+    </footer>
+
+</body>
 </html>
