@@ -89,3 +89,44 @@ a {
 #navbar a:hover {
     text-decoration: underline;
 }
+
+/* CONTENT */
+.content-block {
+    width: 100%;
+    font-size: 17px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.content-text-left {
+    max-width: 60%;
+    padding: 9% 4% 9% 13%;
+}
+.content-text-right {
+    max-width: 60%;
+    padding: 9% 13% 9% 4%;
+}
+/* Padding er "horisontalt omvendt" på content-text boksene slik at mellomrommene skal passe basert
+ * på om bildet står til høyre eller venstre.
+ * Det samme gjelder for bildene, men de har ingen padding-top eller bottom (unødvendig).
+ */
+
+.img-right,
+.img-left {
+    width: 40%;
+    margin: auto 0;
+}
+.img-right > img,
+.img-left > img {
+    max-width: 100%;
+    min-width: 200px;
+    height: auto;
+}
+.img-right {
+    text-align: left;
+    padding: 0 13% 0 4%;
+}
+.img-left {
+    text-align: right;
+    padding: 0 4% 0 13%;
+}
