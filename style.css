@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 /* FRONT PAGE */
 #banner-full {
     height: 100vh;
@@ -51,7 +55,7 @@ a {
     position: absolute;
     top: 0;
     z-index: -2;
-    width: 100%;
+    min-width: 100%;
     min-height: 100%;
 }
 
@@ -131,4 +135,54 @@ a {
 .img-left {
     text-align: right;
     padding: 0 4% 0 13%;
+}
+
+/* REGISTER & LOGIN */
+.register,
+.log-in {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 40px;
+    box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.30);
+}
+
+.register h1,
+.log-in h1 {
+    border-bottom: 4px solid rgb(65, 65, 65);
+}
+
+.register input,
+.log-in input,
+.register select,
+.log-in select {
+    margin: 15px 0px;
+    padding: 15px;
+    border: 0;
+    background-color: #F5F5F5;
+}
+
+.accept-policy {
+    display: flex;
+}
+
+.accept-policy input {
+    width: 34px;
+    height: 34px;
+    margin: 0px;
+    margin-right: 20px;
+}
+
+.register input[type="submit"],
+.log-in input[type="submit"] {
+    background-color: rgb(65, 65, 65);
+    color: whitesmoke;
+}
+
+.register input[type="submit"]:hover,
+.log-in input[type="submit"]:hover {
+    background-color: rgb(90, 90, 90);
+    cursor: pointer;
 }

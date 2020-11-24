@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar">
+        <ul id="navbar-left">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#challenge">Global challenge</a></li>
+            <li><a href="index.html#solution">Our solution</a></li>
+            <li><a href="index.html#subscribe">Subscribe</a></li>
+        </ul>
+        <ul id="navbar-right">
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Log in</a></li>
+        </ul>
+    </div>
+
+    <div class="content-block">
+        <form class="register">
+            <h1>Register a new user</h1>
+            <input type="text" placeholder="First name" required>
+            <input type="text" placeholder="Last name" required>
+            <input type="text" placeholder="Phone number" pattern="(+)\d*" minlength="8" maxlength="12" title="Only numbers and '+' allowed" required>
+            <input type="email" placeholder="E-mail" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm password" required>
+            <select required>
+                <option value disabled selected>Choose subscription</option>
+                <option>Full access (access to all our cameras)</option>
+                <option>Multi-cam access (choose up to five cameras)</option>
+                <option>Single-cam access (choose one camera)</option>
+            </select>
+            <div class="accept-policy">
+                <input type="checkbox" id="checkbox" required>
+                <label for="checkbox">
+                    I confirm that I have read and accept the <a href="terms.html">Terms & Conditions</a> and <a href="privacy.html">privacy policy</a>.
+                </label>
+            </div>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+    <footer>
+        <p>Scroll to top</p>
+        <p><a href="references.html">References</a></p>
+        <p><strong>LiveMarine &#169; 2020. All rights reserved.</strong></p> <!--sentret helt under all annet tekst-->
+        <p>post@livemarine.com</p>
+        <p><a href="terms.html">Terms & Conditions</a></p>
+        <p><a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
