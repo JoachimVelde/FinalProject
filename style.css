@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 14px;
     font-family: 'Noto Sans', sans-serif;
@@ -41,6 +45,36 @@ a:hover {
 #banner-full h2 {
     color: whitesmoke;
     font-size: 1.6rem;
+}
+
+.scroll-down {
+    width: 100px;
+    height: 50px;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 70px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.scroll-down svg {
+    stroke: white;
+    stroke-width: 5;
+    fill: none;
+    fill-opacity: 0;
+    margin-top: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+line {
+    transform: translateX(25%);
+    transition: 500ms ease;
+}
+
+.scroll-down:hover line,
+.scroll-down:focus line {
+    transform: translate(25%, 7px);
 }
 
 #video-tint {
