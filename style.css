@@ -292,7 +292,7 @@ a:hover {
 
     #mobile-menu-wrapper {
         display: none;
-        height: calc(100vh - 70px);
+        height: calc(100vh + 70px); /* Må fikse dette. På hovedsiden dorsvinner menyen når man scroller ned. Aner ikke hvorfor. */
     }
 
     #navbar a {
