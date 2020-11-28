@@ -316,7 +316,7 @@ footer > #footer-info > #footer-center {
 
 
 /* Mobile */
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 660px) {
     html {
         padding-top: 54px; /* Plass til menyen */
     }
