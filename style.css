@@ -152,6 +152,7 @@ a:hover {
     height: 100%;
     padding: 10px;
     font-size: 1.1rem;
+    font-weight: bold;
 }
 
 #navbar a:hover {
@@ -418,5 +419,11 @@ footer > #footer-info > #footer-center {
     footer #footer-info .footer-divided {
         width: 100%;
         margin: 5px 0;
+    }
+
+    .register,
+    .log-in {
+        width: 100%;
+        margin: 0px;
     }
 }
