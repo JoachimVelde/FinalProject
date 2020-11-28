@@ -159,11 +159,32 @@ a:hover {
 }
 
 /* CONTENT */
+.content-subpage {
+    width: 100%;
+    height: 100%;
+    font-size: 1.1rem;
+    padding: 2% 9% 9% 9%;
+}
+.content-subpage ol li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.content-subpage ul li {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .content-block {
     width: 100%;
-    font-size: 17px;
+    font-size: 1.1rem;
     display: flex;
     flex-flow: row wrap;
+}
+
+.content-subpage p a,
+.content-block a,
+.content-text a {
+    color: rgb(0, 119, 255);
 }
 
 .content-text {
@@ -176,11 +197,15 @@ a:hover {
     text-align: center;
     border: 1px solid black;
 }
-.content-text > p > button {
+.content-text #button {
+    text-align: center;
+}
+.content-text #button button {
     padding: 15px;
     border-radius: 5px;
-    background-color: lightblue;
-    border-color: lightblue;
+    color: whitesmoke;
+    background-color: rgb(0, 119, 255);
+    border-color: rgb(0, 119, 255);
     font-size: 1.1rem;
 }
 
@@ -298,6 +323,12 @@ footer > #footer-info > #footer-center {
     #banner-full {
         height: calc(100vh - 54px);
     }
+    #banner-full h1 {
+        font-size: 2.5rem;
+    }
+    #banner-full h2 {
+        font-size: 1.2rem;
+    }
 
     #navbar {
         position: fixed;
@@ -347,5 +378,45 @@ footer > #footer-info > #footer-center {
 
     #mobile-menu-checkbox:checked ~ #mobile-menu-wrapper {
         display: block;
+    }
+
+    .content-block,
+    .content-block .content-text #button button,
+    .content-subpage,
+    footer a,
+    footer p {
+        font-size: 0.9rem;
+    }
+
+    .content-text-left,
+    .content-text-right,
+    .content-text,
+    .content-subpage {
+        max-width: 100%;
+        padding: 3%;
+        order: 1;
+    }
+
+    .content-subpage ol {
+        padding-left: 6%;
+    }
+
+    .img-left,
+    .img-right {
+        width: 100%;
+        padding: 3%;
+        text-align: center;
+        order: 2;
+    }
+    .img-left img,
+    .img-right img {
+        min-width: 100px;
+        width: auto;
+        max-height: 175px;
+    }
+
+    footer #footer-info .footer-divided {
+        width: 100%;
+        margin: 5px 0;
     }
 }
