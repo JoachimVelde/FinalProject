@@ -243,6 +243,12 @@ a:hover {
     padding: 0 4% 0 13%;
 }
 
+.content-block video {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
 footer {
     width: 100%;
     padding-bottom: 40px;
