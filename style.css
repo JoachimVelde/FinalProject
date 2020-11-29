@@ -262,9 +262,8 @@ a:hover {
     z-index: -1;
 }
 
-#reference8 {
-    position: absolute;
-    top: 400px;
+#subscribe-anchor {
+    margin-top: -54px;
 }
 
 footer {
