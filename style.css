@@ -236,8 +236,8 @@ a:hover {
     width: 40%;
     margin: auto 0;
 }
-.img-right > img,
-.img-left > img {
+.img-right img,
+.img-left img {
     max-width: 100%;
     min-width: 200px;
     height: auto;
@@ -261,18 +261,18 @@ footer {
     width: 100%;
     padding-bottom: 40px;
 }
-footer > #footer-info {
+footer #footer-info {
     display: flex;
     flex-flow: row wrap;
     font-size: 1.1rem;
     padding-top: 20px;
 }
-footer > #footer-info > .footer-divided {
+footer #footer-info > .footer-divided {
     width: calc(100% / 3);
     text-align: center;
     margin: auto;
 }
-footer > #footer-info > #footer-center {
+footer #footer-info > #footer-center {
     width: 100%;
     text-align: center;
     padding-top: 20px;
