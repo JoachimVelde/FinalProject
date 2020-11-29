@@ -159,6 +159,10 @@ a:hover {
     text-decoration: underline;
 }
 
+#mobile-menu-toggle {
+    display: none;
+}
+
 /* CONTENT */
 .content-subpage {
     width: 100%;
