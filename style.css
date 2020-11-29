@@ -353,20 +353,23 @@ footer #footer-info > #footer-center {
         position: fixed;
         top: 0;
         width: 100%;
+        padding-top: 54px; /* Space for menu-button */
         background-color: rgb(220, 220, 220);
     }
 
     #mobile-menu-wrapper {
         height: 100%;
         display: none;
+        text-align: center;
     }
 
     #mobile-menu-toggle {
         display: block;
-        width: 60px;
+        width: 70px;
         height: 50px;
         position: absolute;
         top: 0;
+        right: 0;
         cursor: pointer;
         text-align: center;
         line-height: 54px;
@@ -376,13 +379,6 @@ footer #footer-info > #footer-center {
 
     #mobile-menu-toggle:hover {
         text-decoration: underline;
-    }
-
-    #mobile-menu-checkbox {
-        display: initial;
-        width: 60px;
-        height: 50px;
-        opacity: 0;
     }
 
     #navbar-left,
