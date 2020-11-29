@@ -351,24 +351,24 @@ footer > #footer-info > #footer-center {
 
     #mobile-menu-toggle {
         display: block;
-        width: 50px;
+        width: 60px;
         height: 50px;
-        padding: 9px 10px; 
         position: absolute;
         top: 0;
         cursor: pointer;
+        text-align: center;
+        line-height: 54px;
+        font-size: 1.1rem;
+        font-weight: bold;
     }
 
-    #mobile-menu-toggle div {
-        height: 2px;
-        width: 30px;
-        margin: 8px 0px;
-        background-color: rgb(65, 65, 65);
+    #mobile-menu-toggle:hover {
+        text-decoration: underline;
     }
 
     #mobile-menu-checkbox {
         display: initial;
-        width: 50px;
+        width: 60px;
         height: 50px;
         opacity: 0;
     }
