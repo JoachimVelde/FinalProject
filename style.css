@@ -25,6 +25,10 @@ a:hover {
     text-decoration: underline;
 }
 
+#page-wrapper {
+    min-height: calc(100vh - 236px);
+}
+
 /* FRONT PAGE */
 #banner-full {
     height: 100vh;
@@ -329,6 +333,10 @@ footer > #footer-info > #footer-center {
 @media only screen and (max-width: 660px) {
     html {
         padding-top: 54px; /* Plass til menyen */
+    }
+
+    #page-wrapper {
+        min-height: calc(100vh - 54px - 289px);
     }
 
     #banner-full {
