@@ -172,7 +172,7 @@ a:hover {
     width: 120px !important;
     height: 75px !important;
     color: whitesmoke;
-    border-radius: 5px;
+    border-radius: 2px;
     position: absolute;
     right: 100%;
     transform: translateY(75%);
