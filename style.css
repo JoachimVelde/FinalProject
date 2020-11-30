@@ -223,15 +223,23 @@ a:hover {
     border: 1px solid black;
 }
 .content-text #button {
+    width: 45%;
+    min-width: 300px;
+    margin: auto;
     text-align: center;
-}
-.content-text #button button {
-    padding: 15px;
-    border-radius: 5px;
-    color: whitesmoke;
-    background-color: rgb(6, 79, 163);
-    border-color: rgb(6, 79, 163);
     font-size: 1.1rem;
+    display: flex;
+}
+.content-text #button a {
+    color: whitesmoke;
+    text-decoration: none;
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(6, 79, 163);
+    border-radius: 10px;
+}
+.content-text #button a:active {
+    background-color: rgb(6, 50, 110)
 }
 
 .content-text-left {
@@ -423,7 +431,7 @@ footer #footer-info > #footer-center {
     }
 
     .content-block,
-    .content-block .content-text #button button,
+    .content-block .content-text #button,
     .content-subpage,
     footer a,
     footer p {
