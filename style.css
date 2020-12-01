@@ -127,6 +127,7 @@ a:hover {
 
 /* MENU */
 #navbar {
+    position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
     background-color: white;
